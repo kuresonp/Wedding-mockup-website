@@ -1,0 +1,6 @@
+{
+  "name": "Luxury Proposal Event Booking",
+  "description": "A high-end cinematic booking platform for luxury proposal and romantic event planning services.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
