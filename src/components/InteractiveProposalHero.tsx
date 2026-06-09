@@ -86,7 +86,7 @@ export default function InteractiveProposalHero() {
       }
 
       // Smooth lerping
-      animatedValueRef.current = lerp(animatedValueRef.current, targetValue, 0.08);
+      animatedValueRef.current = lerp(animatedValueRef.current, targetValue, 0.20);
       const progress = animatedValueRef.current;
 
       // Base scaling factor relative to 1920x1080
@@ -507,7 +507,7 @@ export default function InteractiveProposalHero() {
   const finalY = useTransform(scrollYProgress, [0.82, 0.95], [40, 0]);
 
   return (
-    <div id="hero-section" ref={containerRef} className="relative h-[300vh] bg-blush-950">
+    <div id="hero-section" ref={containerRef} className="relative h-[150vh] bg-blush-950">
       {/* Canvas Sticky Viewport */}
       <div className="sticky top-0 left-0 w-full h-screen overflow-hidden">
         <canvas
